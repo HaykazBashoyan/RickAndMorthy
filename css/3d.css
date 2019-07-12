@@ -1,0 +1,28 @@
+.left {
+  transform: perspective(200px)rotateY(10deg); 
+  animation: first 3s infinite;
+}
+@keyframes first {
+  0% {transform: perspective(200px)rotateY(10deg);}
+  25%{transform: perspective(200px)rotateY(12deg);}
+  50%{transform: perspective(200px)rotateY(15deg);}
+  75%{transform: perspective(200px)rotateY(18deg);}
+  100% {transform: perspective(200px)rotateY(20deg);}
+}
+/* .left:hover {
+  transform: perspective(100px)rotateY(8deg);
+} */
+.centerl {
+  transform: perspective(200px)rotateY(5deg);
+}
+.centerr {
+  transform: perspective(200px)rotateY(-5deg);
+}
+.right {
+  transform: perspective(200px)rotateY(-10deg);
+   animation: second 3s infinite;
+}
+@keyframes second {
+  from {transform: perspective(200px)rotateY(-10deg);}
+  to {transform: perspective(200px)rotateY(-20deg);}
+}

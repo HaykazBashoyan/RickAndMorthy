@@ -1,0 +1,52 @@
+
+#descrSeason{ margin:0 0 0 7px; width:729px}
+#descrSeason a{ border:0; text-decoration:none}
+#descrSeason div{margin:5px 6px 0 0; border:1px solid #9f9f9f}
+#LoadDiv2 { margin:0 0 0 7px; width:729px}
+#LoadDiv2 div{margin:5px 6px 0 0; border:1px solid #9f9f9f}
+.smallSeason{ float:left}
+.smallSeason h2{font:700 15px tahoma,Helvetica,sans-serif; color:#00b1c1;margin-bottom: 9px;}
+.smallCharacters{ float:left; margin-left:5px}
+.smallCharacters h2{font:700 15px tahoma,Helvetica,sans-serif; color:#00b1c1}
+.smallFans{ float:left; margin-left:9px; text-align:center; margin-top:10px;}
+.smallFans img{border:1px solid #9f9f9f}
+.smallFans span{ display:block; margin-bottom:-14px;position:relative;font:700 12px tahoma,Helvetica,sans-serif; color: #FFF; background:#00b1c1; width:92px}
+
+.descrSmallSeason{ float:left}
+.descrSmallSeason h2{font:700 15px tahoma,Helvetica,sans-serif; color:#0193d7}
+.title_1{position:relative;zoom:1;color:#06F}
+.title_1 em{display:none;}
+.title_1:hover em:hover{display:none;}
+.title_1:hover em{border:1px solid #9f9f9f;width:346px;height:119px;display:block;position:absolute;z-index:4;background-color:#eeeded;line-height:normal;color:#121212;text-decoration:none;padding:3px 5px;bottom:1px;left:181px;font:11px tahoma,Helvetica,sans-serif}
+.title_2{position:relative;zoom:1;color:#06F}
+.title_2 em{display:none;}
+.title_2:hover em:hover{display:none;}
+.title_2:hover em{border:1px solid #9f9f9f;width:346px;height:119px;display:block;position:absolute;z-index:4;background-color:#eeeded;line-height:normal;color:#121212;text-decoration:none;padding:3px 5px;bottom:1px;left:-365px;font:11px tahoma,Helvetica,sans-serif}
+
+.titleCharacters_1{position:relative;zoom:1;color:#06F}
+.titleCharacters_1 em{display:none;}
+.titleCharacters_1:hover em:hover{display:none;}
+.titleCharacters_1:hover em{border:1px solid #9f9f9f;width:346px;height:263px;display:block;position:absolute;z-index:4;background-color:#eeeded;line-height:normal;color:#121212;text-decoration:none;padding:3px 5px;bottom:1px;left:181px;font:11px tahoma,Helvetica,sans-serif}
+.titleCharacters_2{position:relative;zoom:1;color:#06F}
+.titleCharacters_2 em{display:none;}
+.titleCharacters_2:hover em:hover{display:none;}
+.titleCharacters_2:hover em{border:1px solid #9f9f9f;width:346px;height:263px;display:block;position:absolute;z-index:4;background-color:#eeeded;line-height:normal;color:#121212;text-decoration:none;padding:3px 5px;bottom:1px;left:-368px;font:11px tahoma,Helvetica,sans-serif}
+
+#otherSeasons{ text-align:center;margin-top: 17px;}
+#otherSeasons div{padding: 5px 0px; background:#eeeded;width:40px;display:inline-block;margin: 4px 2px 0px 2px;}
+#otherSeasons div.etotSeason{padding: 5px 0px;background:#00b1c1;color:#ffffff; font:700 18px tahoma,Helvetica,sans-serif;width:40px;}
+
+.size16{font:700 16px tahoma,Helvetica,sans-serif; color:#FFF; background:#00b1c1; text-decoration: none; padding-left:5px; padding-right:5px}
+
+#picturesBlock img{border:1px solid #9f9f9f} 
+.picturesImg{margin-left:35px}
+
+.left_panel_shop{ margin-left:-5px; margin-bottom:10px;text-align: center;}
+
+
+.picturesImg span{position:relative;zoom:1;color:#06F}
+.picturesImg span em{display:none}
+.picturesImg span:hover em{border:1px solid #9f9f9f;width:340px;height:17px;display:block;position:absolute;z-index:4;background-color:#eeeded;line-height:normal;color:#121212;text-decoration:none;padding:3px 5px;bottom:3px;left:0;font:12px tahoma,Helvetica,sans-serif; text-align:center}
+.gallery{font:700 11px tahoma,Helvetica,sans-serif; color:#00b1c1; text-decoration:underline}
+.gallery:hover{font:700 11px tahoma,Helvetica,sans-serif; color:#00b1c1; text-decoration: none}
+#back-top {bottom: 10px;margin: 0px 50% auto;position: fixed;right: -570px;z-index: 1;}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты|Рик и Морти</title>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/navbar.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+      <link rel="stylesheet" href="css/effect.css">
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/contact/util.css">
+	<link rel="stylesheet" type="text/css" href="css/contact/main.css">
+<!--===============================================================================================-->
+<style>
+    @font-face {
+        font-family: rick;
+        src: url(../dikovina.otf);
+    }
+    body {
+        font-family: rick !important;
+    }
+</style>
+</head>
+<body>
+	<!-- Start HEAEDER -->
+	<header id="top">
+		<ul>
+			<li>
+				<a href="index.html">Сезоны</a>
+			</li>
+			<li>
+				<a href="about.html">Персонажи</a>
+			</li>
+			<li>
+				<a href="comics.html">Комиксы</a>
+			</li>
+			<li>
+				<a href="gallery.html">Галерея</a>
+			</li>
+			<li>
+				<a href="contact.html">Контакты</a>
+			</li>
+		</ul>
+	</header>
+
+	<!-- Start CONTACT -->
+	<div class="con" id="con">
+		<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="images/img-01.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form">
+				<span class="contact1-form-title">
+					Удиви меня
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Name is required">
+					<input class="input1" type="text" name="name" placeholder="Имя">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input class="input1" type="text" name="email" placeholder="Эл.адресс">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Subject is required">
+					<input class="input1" type="text" name="subject" placeholder="Ник">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Message is required">
+					<textarea class="input1" name="message" placeholder="Послание"></textarea>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Полетели
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+	<!-- End CONTACT -->
+	
+	<!-- Start FOOTER -->
+	<footer>
+		<div class="c-glitch" style="background-image: url('images/footer.png');">
+		    <div class="c-glitch__img" style="background-image: url('images/footer.png');"></div>
+		    <div class="c-glitch__img" style="background-image: url('images/footer.png');"></div>
+		    <div class="c-glitch__img" style="background-image: url('images/footer.png');"></div>
+		    <div class="c-glitch__img" style="background-image: url('images/footer.png');"></div>
+		    <div class="c-glitch__img" style="background-image: url('images/footer.png');"></div>
+		    <p class="importInfo">&copy; 2019 Сайт создал <a href="http://webdevhaykaz.gq" style="color: gold;font-family: 'Pinyon Script', cursive;">Haykaz</a> в учебных целях  <p>
+		    <a href="#top"><img src="images/logo.png" class="upScroll" alt="up"></a>
+		 </div>
+	</footer>
+	<!-- End FOOTER -->
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+</body>
+</html>
